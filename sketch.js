@@ -32,12 +32,12 @@ function draw() {
   rectMode(CENTER);
   background("black");
   Engine.update(engine);
-  
+    ball.display();
   log1.display();
   log2.display();
   log3.display();
   ground.display();
-  ball.display();
+
 
   drawSprites();
 
